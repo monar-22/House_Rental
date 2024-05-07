@@ -1,10 +1,34 @@
 import React,{ useState,useEffect,createContext } from 'react';
-const HouseContext = () => {
+
+import { housesData } from '../data';
+
+export const HouseContext = createContext();
+
+  const HouseContextProvider = ({children}) => {
+  const [houses,setHouses] = useState(housesData);
+  const [country,setCountry] = useState()
+  const [countries, setCountries] = useState([]);
+  const [property, setProperty] = useState('Property type(any)');
+  const [properties,setProperties] =useState([]);
+  const [price,setPrice] = useState('Any Price Range');
+  const [loading,setLoading] = useState(false);
   return (
-    <div>
-      
-    </div>
+     <HouseContext.Provider value={{
+      country,
+      setCountry,
+      countries,
+      property,
+      setProperty,
+      properties,
+      price,
+      setPrice,
+      houses,
+      loading
+
+     }}>
+        {children}
+     </HouseContext.Provider>
   )
 }
 
-export default HouseContext
+export default HouseContextProvider
