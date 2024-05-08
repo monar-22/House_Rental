@@ -1,8 +1,6 @@
 import React, {useState,useEffect,useContext} from 'react'
 import { RiWallet3Line, RiArrowDownSLine, RiArrowUpSLine} from 'react-icons/ri';
-
 import { Menu,MenuButton,MenuItems,MenuItem } from '@headlessui/react';
-
 import { HouseContext } from './HouseContext';
    
 const PriceDropdown = () => {
@@ -10,20 +8,6 @@ const PriceDropdown = () => {
   const {price,setPrice} = useContext(HouseContext);
   const [isOpen,setIsOpen] = useState(false);
   
-  // const prices = [
-  //   {
-  //     value:'Price range (any)',
-  //   },
-  //   {
-  //     value:'5000-10000',
-  //   },
-  //   {
-  //     value:'10000-15000',
-  //   },
-  //   {
-  //     value:'15000-20000',
-  //   }
-  // ]
   const prices = [
     {
       value:'Price range (any)',

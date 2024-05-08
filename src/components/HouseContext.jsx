@@ -79,7 +79,7 @@ export const HouseContext = createContext();
       }
    }
    
-   else if(!isDefault(country) && !isDefault(property) && !isDefault(price)){
+   else if(isDefault(country) && !isDefault(property) && !isDefault(price)){
       if(housePrice >= minPrice && housePrice <= maxPrice){
          return house.type === property;
       }
@@ -89,18 +89,11 @@ export const HouseContext = createContext();
    });
    setTimeout(() =>{
       return newHouses.length < 1 ? setHouses([]) :
-      setHouses(newHouses);
-      setLoading(false);
-   })
+      setHouses(newHouses),
+      setLoading(false)
+   },500)
    
   };
-//   useEffect(()=> {
-//    const allPrices = houses.map((house) => {
-//       return house.type;
-//    });
-//    const uniqueProperties = ['Location (any)',...new Set(allPrices)];
-//    setProperties(uniqueProperties);
-//   },[])
 
   return (
      <HouseContext.Provider value={{
@@ -114,7 +107,8 @@ export const HouseContext = createContext();
       setPrice,
       houses,
       loading,
-      handleClick
+      handleClick,
+      loading
 
      }}>
         {children}
