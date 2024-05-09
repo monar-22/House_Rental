@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/House_Rental/static/css/main.e0929465.css",
+    "main.js": "/House_Rental/static/js/main.4fb4ae60.js",
+    "static/media/c1.jpeg": "/House_Rental/static/media/c1.1247997be5bae1f2c705.jpeg",
+    "static/media/f.jpg": "/House_Rental/static/media/f.fa8beeefc53ca626e977.jpg",
+    "static/media/a1.jpeg": "/House_Rental/static/media/a1.c48d619385af7edc7c81.jpeg",
+    "static/media/h1.jpg": "/House_Rental/static/media/h1.c539130c1567178fe7b7.jpg",
+    "static/media/b1.jpg": "/House_Rental/static/media/b1.2d2be2c429a32b678629.jpg",
+    "static/media/house10lg.png": "/House_Rental/static/media/house10lg.7cdefca31329de5e3f8a.png",
+    "static/media/house11lg.png": "/House_Rental/static/media/house11lg.a88bde8ff3603b502d7d.png",
+    "static/media/house8lg.png": "/House_Rental/static/media/house8lg.e52aaedfdafc909b2a8e.png",
+    "static/media/house3lg.png": "/House_Rental/static/media/house3lg.f7da39263c3122c29ba8.png",
+    "static/media/a6lg.png": "/House_Rental/static/media/a6lg.43a2e3265e19c9ddac09.png",
+    "static/media/house7lg.png": "/House_Rental/static/media/house7lg.562a26505c524c3e4bc0.png",
+    "static/media/house6lg.png": "/House_Rental/static/media/house6lg.61dc62a0aac79885ec4a.png",
+    "static/media/house9lg.png": "/House_Rental/static/media/house9lg.46db3da0ee801171b35b.png",
+    "static/media/a4lg.png": "/House_Rental/static/media/a4lg.345fa555720bcb36c1f4.png",
+    "static/media/a1lg.png": "/House_Rental/static/media/a1lg.e029d6555e233dce2a4e.png",
+    "static/media/a5lg.png": "/House_Rental/static/media/a5lg.b1614216b8d314050c01.png",
+    "static/media/a2lg.png": "/House_Rental/static/media/a2lg.7270956d7f57cf42328f.png",
+    "static/media/a3lg.png": "/House_Rental/static/media/a3lg.b6e34385d9dc823b2780.png",
+    "static/media/f1.jpg": "/House_Rental/static/media/f1.1566e8cb6ba96a4281ae.jpg",
+    "index.html": "/House_Rental/index.html",
+    "main.e0929465.css.map": "/House_Rental/static/css/main.e0929465.css.map",
+    "main.4fb4ae60.js.map": "/House_Rental/static/js/main.4fb4ae60.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e0929465.css",
+    "static/js/main.4fb4ae60.js"
+  ]
+}
