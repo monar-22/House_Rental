@@ -1,37 +1,37 @@
 // import house images
-import House1 from './assets/img/houses/house1lg.png';
-import House2 from './assets/img/houses/house2lg.png';
+import House1 from './assets/img/houses/a1.jpeg';
+import House2 from './assets/img/houses/b1.jpg';
 import House3 from './assets/img/houses/house3lg.png';
-import House4 from './assets/img/houses/house4lg.png';
-import House5 from './assets/img/houses/house5lg.png';
+import House4 from './assets/img/houses/f1.jpg';
+import House5 from './assets/img/houses/c1.jpeg';
 import House6 from './assets/img/houses/house6lg.png';
 import House7 from './assets/img/houses/house7lg.png';
 import House8 from './assets/img/houses/house8lg.png';
 import House9 from './assets/img/houses/house9lg.png';
 import House10 from './assets/img/houses/house10lg.png';
 import House11 from './assets/img/houses/house11lg.png';
-import House12 from './assets/img/houses/house12lg.png';
+import House12 from './assets/img/houses/h1.jpg';
 // import house large images
-import House1Lg from './assets/img/houses/house1lg.png';
-import House2Lg from './assets/img/houses/house2lg.png';
+import House1Lg from './assets/img/houses/a1.jpeg';
+import House2Lg from './assets/img/houses/b1.jpg';
 import House3Lg from './assets/img/houses/house3lg.png';
-import House4Lg from './assets/img/houses/house4lg.png';
-import House5Lg from './assets/img/houses/house5lg.png';
+import House4Lg from './assets/img/houses/f1.jpg';
+import House5Lg from './assets/img/houses/c1.jpeg';
 import House6Lg from './assets/img/houses/house6lg.png';
 import House7Lg from './assets/img/houses/house7lg.png';
 import House8Lg from './assets/img/houses/house8lg.png';
 import House9Lg from './assets/img/houses/house9lg.png';
 import House10Lg from './assets/img/houses/house10lg.png';
 import House11Lg from './assets/img/houses/house11lg.png';
-import House12Lg from './assets/img/houses/house12lg.png';
+import House12Lg from './assets/img/houses/h1.jpg';
 
 // import apartments images
-import Apartment1 from './assets/img/apartments/a1.png';
-import Apartment2 from './assets/img/apartments/a2.png';
-import Apartment3 from './assets/img/apartments/a3.png';
-import Apartment4 from './assets/img/apartments/a4.png';
-import Apartment5 from './assets/img/apartments/a5.png';
-import Apartment6 from './assets/img/apartments/a6.png';
+import Apartment1 from './assets/img/apartments/a1lg.png';
+import Apartment2 from "./assets/img/apartments/a2lg.png";
+import Apartment3 from './assets/img/apartments/a3lg.png';
+import Apartment4 from './assets/img/apartments/a4lg.png';
+import Apartment5 from './assets/img/apartments/a5lg.png';
+import Apartment6 from './assets/img/apartments/a6lg.png';
 // import apartments large images
 import Apartment1Lg from './assets/img/apartments/a1lg.png';
 import Apartment2Lg from './assets/img/apartments/a2lg.png';
@@ -84,7 +84,7 @@ export const housesData = [
     image: House3,
     imageLg: House3Lg,
     country: 'United States',
-    address: '2 Glen Creek St. Alexandria, VA 22304',
+    address: '2 Glen Creek St. Alexandria, VA MaLand 22304',
     bedrooms: '6',
     bathrooms: '3',
     surface: '4200 sq ft',
